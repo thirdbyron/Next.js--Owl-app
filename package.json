@@ -1,24 +1,31 @@
 {
-  "name": "owl-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "13.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.11.7",
-    "@types/react": "18.0.23",
-    "@types/react-dom": "18.0.7",
-    "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0",
-    "typescript": "4.8.4"
-  }
+    "name": "owl-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "stylelint": "stylelint \"**/*.css\" --fix"
+    },
+    "dependencies": {
+        "next": "13.0.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.11.7",
+        "@types/react": "18.0.23",
+        "@types/react-dom": "18.0.7",
+        "cross-env": "^7.0.3",
+        "eslint": "8.26.0",
+        "eslint-config-next": "13.0.0",
+        "stylelint": "^14.14.0",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-standard": "^29.0.0",
+        "stylelint-order": "^5.0.0",
+        "typescript": "4.8.4"
+    }
 }
