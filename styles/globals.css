@@ -2,8 +2,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Sans', sans-serif;
 	color: var(--black);
+	font-family: "Noto Sans", sans-serif;
 	background: var(--background);
 }
 
@@ -19,12 +19,15 @@ a {
 :root {
 	--black: #3B434E;
 	--white: white;
+	--gray-light: #EBEBEB;
 	--background: #F5F6F8;
-	--primary: #7653FC;
+	--primary: #4924db;
+	--primary-hover: #7653FC;
 	--red: #FC836D;
 	--green: #1DC37E;
 	--green-light: #C8F8E4;
-	--font-family: 'Noto Sans',
+	--font-family:
+		"Noto Sans",
 		sans-serif;
 }
 
