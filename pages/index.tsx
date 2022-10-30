@@ -1,6 +1,4 @@
-import Image from 'next/image';
-import { Button, Htag } from '../components';
-import { Paragraph } from '../components/Paragraph/Paragraph';
+import { Button, Htag, Paragraph, Tag } from '../components';
 
 export default function Home() {
     return (
@@ -18,6 +16,12 @@ export default function Home() {
                 Пожалуйста, не оставляйте решения и подсказки в комментариях,
                 для этого есть отдельный форум.
             </Paragraph>
+            <Tag color='green'>Hallo</Tag>
+            <Tag size='s' color='primary'>
+                Hallgho
+            </Tag>
+            <Tag color='ghost'>Hallo</Tag>
+            <Tag color='red'>Hallo</Tag>
         </>
     );
 }
